@@ -1,0 +1,10 @@
+
+:root{
+    --sidebar-background-color: var(--secondary-color);
+    --sidebar-text-color: white;
+    --sidebar-text-font-size: 1rem;
+    --sidebar-width-open: 15rem;
+    --sidebar-width-closed: 3rem;
+    --sidebar-font-size:1.2rem;
+    --sidebar-margin: 0 0.5rem 0 0
+}

@@ -1,0 +1,6 @@
+.container {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #eaeaea;
+  box-shadow: var(--global-box-shadow);
+}

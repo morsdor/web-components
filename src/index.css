@@ -1,3 +1,18 @@
+
+@import url('./css-variables/global-variables.css');
+@import url('./css-variables/button-variables.css');
+@import url('./css-variables/input-variables.css');
+@import url('./css-variables/sidebar-variables.css');
+@import url('./css-variables/searchbar-variables.css');
+
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

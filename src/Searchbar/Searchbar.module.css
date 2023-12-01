@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: 5px;
+}
+
+.button {
+  height: var(--searchbar-button-height);
+  margin: 0.5rem;
+  width: var(--searchbar-button-width);
+}
+
+.input {
+  background-color: var(--searchbar-input-bg-color);
+}

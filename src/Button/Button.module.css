@@ -1,0 +1,89 @@
+.button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: var(--font-size);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132);
+  height: var(--btn-height);
+}
+
+@keyframes buttonClickAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.99);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button.animate {
+  animation: buttonClickAnimation 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--btn-text-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: var(--btn-text-color);
+}
+
+.btn-danger:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-success {
+  background-color: var(--success);
+  color: var(--btn-text-color);
+}
+
+.btn-success:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+  color: var(--btn-text-color);
+}
+
+.btn-warning:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-sm {
+  width: var(--btn-small-size);
+}
+
+.btn-md {
+  width: var(--btn-medium-size);
+}
+
+.btn-lg {
+  width: var(--btn-large-size);
+}
+
+.outline {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.disabled {
+  background-color: var(--disabled-background-color);
+  color: white;
+  cursor: not-allowed;
+}

@@ -1,0 +1,11 @@
+:root {
+  --primary-color: rgb(1, 1, 150);
+  --secondary-color: rgb(6, 34, 192);
+  --danger: red;
+  --success: green;
+  --warning: yellow;
+  --info: blue;
+  --font-size: 1rem;
+  --global-box-shadow: 0 7px 7.2px 0 rgba(0, 0, 0, 0.132);
+  --disabled-background-color: #E0E0E0;
+}
